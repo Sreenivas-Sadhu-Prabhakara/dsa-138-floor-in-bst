@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="726" viewBox="0 0 760 726" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="724.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Floor in a BST — the best ≤ seen on the way down</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Floor(5): the largest key ≤ 5. One root-to-leaf walk, remembering the best</text>
+<text x="56.0" y="98.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">qualifying node passed.</text>
+<line x1="380.0" y1="150.0" x2="202.0" y2="180.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="380.0" y1="150.0" x2="558.0" y2="180.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="212.0" x2="113.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="212.0" x2="291.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="558.0" y1="212.0" x2="647.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="291.0" y1="274.0" x2="246.5" y2="304.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="291.0" y1="274.0" x2="335.5" y2="304.0" stroke="#94a3b8" stroke-width="1.3"/>
+<circle cx="380.0" cy="134.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="380.0" y="139.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">8</text>
+<circle cx="202.0" cy="196.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="202.0" y="201.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">3</text>
+<circle cx="558.0" cy="196.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="558.0" y="201.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">10</text>
+<circle cx="113.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="113.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="291.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="291.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">6</text>
+<circle cx="647.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="647.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">14</text>
+<circle cx="246.5" cy="320.0" r="17" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="246.5" y="325.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">4</text>
+<circle cx="335.5" cy="320.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="335.5" y="325.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">7</text>
+<circle cx="424.5" cy="320.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="424.5" y="325.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">13</text>
+<line x1="24.0" y1="360.0" x2="736.0" y2="360.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="380.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="384.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="385.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">8 &gt; 5 → left. 3 ≤ 5 → candidate 3, go right (something bigger but still ≤ 5 may</text>
+<text x="56.0" y="404.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">exist). 6 &gt; 5 → left. 4 ≤ 5 → candidate 4, go right → nil. Done.</text>
+<text x="24.0" y="428.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="start" font-weight="600">walk</text>
+<text x="47.0" y="444.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">node</text>
+<text x="93.0" y="444.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">vs 5</text>
+<text x="139.0" y="444.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">move</text>
+<text x="185.0" y="444.0" font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#64748b" text-anchor="middle">best</text>
+<rect x="24.0" y="450.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="46.0" y="470.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">8</text>
+<rect x="70.0" y="450.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="92.0" y="470.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">&gt;5</text>
+<rect x="116.0" y="450.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="138.0" y="470.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">left</text>
+<rect x="162.0" y="450.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="184.0" y="470.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">—</text>
+<rect x="24.0" y="482.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="46.0" y="502.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">3</text>
+<rect x="70.0" y="482.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="92.0" y="502.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">≤5</text>
+<rect x="116.0" y="482.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="138.0" y="502.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">right</text>
+<rect x="162.0" y="482.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="184.0" y="502.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">3</text>
+<rect x="24.0" y="514.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="46.0" y="534.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">6</text>
+<rect x="70.0" y="514.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="92.0" y="534.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">&gt;5</text>
+<rect x="116.0" y="514.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="138.0" y="534.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">left</text>
+<rect x="162.0" y="514.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="184.0" y="534.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">3</text>
+<rect x="24.0" y="546.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="46.0" y="566.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">4</text>
+<rect x="70.0" y="546.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="92.0" y="566.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">≤5</text>
+<rect x="116.0" y="546.0" width="44.0" height="30.0" rx="4" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="138.0" y="566.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">right (nil)</text>
+<rect x="162.0" y="546.0" width="44.0" height="30.0" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1.2"/>
+<text x="184.0" y="566.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#1e293b" text-anchor="middle">4</text>
+<line x1="24.0" y1="592.0" x2="736.0" y2="592.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="612.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="616.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="617.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Floor(5) = 4 in O(h), no recursion. The candidate-update-then-keep-walking pattern</text>
+<text x="56.0" y="636.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">is the same as search with a memory.</text>
+<text x="72.0" y="671.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">answer</text>
+<rect x="84.0" y="652.0" width="126.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="147.0" y="671.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">floor(5) → 4</text>
+<text x="380.0" y="708.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
